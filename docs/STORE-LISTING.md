@@ -42,7 +42,7 @@ GitHub receives direct requests for repository metadata, paths, raw files, the o
 - Remote code: **No**. Only packaged extension code runs. Repository scripts, Markdown and downloaded indexes are treated as data.
 - Data handling: disclose **authentication information** (the optional GitHub token), **website content** (skill files/index/repository data), and **web history/activity** limited to explicitly requested repository URLs and transient matching Claude tab URLs, using the dashboard's current category wording. State that this serves the single purpose and is local except for direct requests to GitHub and the user-selected file handoff to Claude. Do not make an unqualified “handles no user data” declaration simply because there is no developer backend.
 - The developer does not sell data, use it for unrelated purposes, or use it to determine creditworthiness or lending eligibility.
-- Set a public HTTPS privacy policy URL after hosting `docs/privacy.html`. Add a working developer/support contact to the listing before submitting; the policy refers users to that contact.
+- Privacy policy URL: **https://reuke1111.github.io/skill-drop/privacy.html**. Support URL: **https://github.com/reuke1111/skill-drop/issues**. Add your working developer contact details to the listing before submitting; the policy refers users to that contact or Support link.
 
 These declarations describe the supplied source. The developer must review and certify them in the dashboard; no submission or review decision has been made here.
 

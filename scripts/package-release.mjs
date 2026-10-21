@@ -16,6 +16,7 @@ for(const name of EXPECTED_FILES)assert.deepEqual(unpacked[name],files[name]);
 const filename=`skill-drop-${audit.manifest.version}.zip`;
 const report={
   product:audit.manifest.name,version:audit.manifest.version,generatedAt:new Date().toISOString(),file:filename,
+  repository:'https://github.com/reuke1111/skill-drop',privacyPolicyUrl:'https://reuke1111.github.io/skill-drop/privacy.html',
   compressedBytes:zip.length,compressedKiB:Number((zip.length/1024).toFixed(2)),
   uncompressedBytes:EXPECTED_FILES.reduce((sum,name)=>sum+files[name].length,0),sha256:sha256(zip),
   contents:EXPECTED_FILES.map(name=>({path:name,bytes:files[name].length,sha256:sha256(files[name])})),
@@ -23,7 +24,7 @@ const report={
   iconSizes:audit.iconSizes,bundledSkills:audit.bundledSkills,checks:[...audit.checks,'Reopened ZIP: every root path and file byte matches dist/'],
   verificationScope:'Agent checks were local static/build/ZIP checks only. Automated regression results are in artifacts/latest-test-run.log. The user subsequently reported Chrome testing; the agent did not observe Chrome or Claude, perform an upload, or submit to the Store.',
   userEvidence:'On October 21, 2026 (Asia/Calcutta), after v1.0.0 release preparation, the user reported "tested in Chrome". Individual cases, outcomes and an exact tested ZIP hash were not supplied. The user previously confirmed one- and two-skill uploads from anthropics/skills on an earlier build; exact upload commit and skill names were not provided. See artifacts/USER-CONFIRMED-UPLOADS.md.',
-  pending:['Record flow-specific Chrome outcomes not detailed in the general test confirmation, including fallback/download completion and four dialog tab cases','Review prepared 1280x800 screenshot crops and 440x280 promotional tile in store-assets/','Public privacy URL and working developer/support contact','Developer dashboard disclosures, submission and review']
+  pending:['Record flow-specific Chrome outcomes not detailed in the general test confirmation, including fallback/download completion and four dialog tab cases','Review prepared 1280x800 screenshot crops and 440x280 promotional tile in store-assets/','Working developer contact details in the Store dashboard','Developer dashboard disclosures, submission and review']
 };
 await mkdir(resolve(root,'release'),{recursive:true});
 await writeFile(resolve(root,'release',filename),zip);

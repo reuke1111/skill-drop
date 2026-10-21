@@ -1,8 +1,10 @@
 {
   "product": "Skill Drop",
   "version": "1.0.0",
-  "generatedAt": "2026-10-21T07:22:07.959Z",
+  "generatedAt": "2026-10-21T07:41:54.014Z",
   "file": "skill-drop-1.0.0.zip",
+  "repository": "https://github.com/reuke1111/skill-drop",
+  "privacyPolicyUrl": "https://reuke1111.github.io/skill-drop/privacy.html",
   "compressedBytes": 114300,
   "compressedKiB": 111.62,
   "uncompressedBytes": 371820,
@@ -128,7 +130,7 @@
   "pending": [
     "Record flow-specific Chrome outcomes not detailed in the general test confirmation, including fallback/download completion and four dialog tab cases",
     "Review prepared 1280x800 screenshot crops and 440x280 promotional tile in store-assets/",
-    "Public privacy URL and working developer/support contact",
+    "Working developer contact details in the Store dashboard",
     "Developer dashboard disclosures, submission and review"
   ]
 }

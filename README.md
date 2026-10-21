@@ -2,6 +2,8 @@
 
 Unofficial. Not affiliated with Anthropic.
 
+[Public repository](https://github.com/reuke1111/skill-drop) · [Privacy policy](https://reuke1111.github.io/skill-drop/privacy.html) · [Download v1.0.0 ZIP](https://github.com/reuke1111/skill-drop/raw/refs/heads/main/release/skill-drop-1.0.0.zip) · [Listing images](https://github.com/reuke1111/skill-drop/tree/main/store-assets)
+
 Find GitHub skills in Chrome's side panel, review their original SKILL.md files and supporting-file counts, select one or more skills, and choose **Add to Claude** to prepare Claude's Skills file field. You review the previews and click **Upload** yourself. If the field cannot be filled, use the downloaded ZIPs with Claude's browse button.
 
 Paste a GitHub repository or folder link in the main search box and press Enter to discover every SKILL.md in that scope, including nested skills. Repository shorthand input is also supported. Search the bundled directory by name, purpose or repository. Skill names and source files are preserved; collisions trigger warnings rather than silent renaming. Advanced settings starts collapsed.
@@ -67,10 +69,10 @@ The permission audit removed unlimitedStorage. The retained permissions are side
 
 After release preparation, the user reported “tested in Chrome” on October 21, 2026. Chrome testing is recorded as user-reported; individual cases, outcomes and an exact ZIP hash were not supplied. The user also confirmed successful one- and two-skill uploads from anthropics/skills on an earlier build. The agent did not observe the browser or those uploads; exact skill names, upload commit and scan details were not supplied. Successful uploads for other repositories, duplicate replacement behavior, scan acceptance and installation persistence are not inferred. See [user-provided evidence](artifacts/USER-CONFIRMED-UPLOADS.md). Automated tests and packaging checks are local unless explicitly identified as real GitHub snapshots in their reports.
 
-No Chrome Web Store submission or approval is claimed. Before submission, record any remaining flow-specific Chrome outcomes, take actual screenshots, supply the required promotional image and developer/support contact, and publish/check the privacy policy URL. The name's Store availability and artwork rights have not been verified.
+No Chrome Web Store submission or approval is claimed. Before submission, record any remaining flow-specific Chrome outcomes, review the prepared screenshots and promotional image, provide developer/support contact details, and enter the hosted privacy policy URL. The name's Store availability and artwork rights have not been verified.
 
 ## Scheduled directory builder
 
-The standalone `index-repo/` contains a daily GitHub Action and generated index. It has no remote and is not published. A full local builder run produced the bundled 57-record, 51,728-byte snapshot, with oversized repositories recorded in the skip report. Direct repository loading works independently of a published index. Follow [index-repo/README.md](index-repo/README.md) to publish it in a repository you control; a hosted daily run has not been verified.
+The published `.github/workflows/index.yml` schedules the index builder daily at 03:23 UTC (08:53 Asia/Calcutta) and supports manual dispatch. It runs in `index-repo/`, verifies its generated JSON, and commits the index and skip report. A hosted indexing run has not yet been verified. Configure Advanced settings with `https://raw.githubusercontent.com/reuke1111/skill-drop/main/index-repo/skills-index.json` to use this hosted directory. The release ZIP still contains its original bundled snapshot. Direct repository loading works independently of the index.
 
-Pre-build research is in [docs/RESEARCH.md](docs/RESEARCH.md). The real cached GitHub results and older implementation evidence remain under `artifacts/`; they describe the versions and commits used at the time and are not evidence that this release was tested live in Chrome.
+Pre-build research is in [docs/RESEARCH.md](docs/RESEARCH.md). Generated test artifacts and HTTP caches are kept locally and excluded from this public repository. The user-supplied test evidence document is included under `artifacts/`.

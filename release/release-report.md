@@ -42,7 +42,7 @@ On October 21, 2026 (Asia/Calcutta), after v1.0.0 release preparation, the user 
 
 - Record flow-specific Chrome outcomes not detailed in the general test confirmation, including fallback/download completion and four dialog tab cases
 - Review prepared 1280x800 screenshot crops and 440x280 promotional tile in store-assets/
-- Public privacy URL and working developer/support contact
+- Working developer contact details in the Store dashboard
 - Developer dashboard disclosures, submission and review
 
 Permission justifications: ../docs/PERMISSIONS.md. Listing/privacy declarations: ../docs/STORE-LISTING.md. Screenshot and hosting steps: ../docs/RELEASE.md.

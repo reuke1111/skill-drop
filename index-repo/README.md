@@ -1,6 +1,6 @@
 # Claude Skill Drop index repository
 
-This directory is a separate initialized local Git repository, ready to publish. It has no remote or hosted raw endpoint yet. Copy/publish its contents as the root of a new GitHub repository. The daily workflow runs on the repository's default branch.
+This builder is published inside [reuke1111/skill-drop](https://github.com/reuke1111/skill-drop). The active workflow is at `../.github/workflows/index.yml`; it runs with this directory as its working directory. The nested `.github/workflows/index.yml` is retained as a standalone-repository template. The raw index URL is https://raw.githubusercontent.com/reuke1111/skill-drop/main/index-repo/skills-index.json . A successful hosted indexing run has not yet been verified.
 
 ## Run
 
