@@ -4,13 +4,13 @@ Unofficial. Not affiliated with Anthropic.
 
 Skill Drop finds Claude Skills on GitHub, shows the original SKILL.md, and prepares complete skill folders for upload in Claude's Skills settings. You review the files and click **Upload** yourself.
 
-[Demo video](VIDEO_LINK) · [Privacy policy](https://reuke1111.github.io/skill-drop/privacy) · [Download v1.0.0](RELEASE_LINK)
+[Demo video](VIDEO_LINK) · [Privacy policy](https://reuke1111.github.io/skill-drop/privacy) · [Download v1.0.0](https://github.com/reuke1111/skill-drop/releases/download/v1.0.0/skill-drop-1.0.0.zip)
 
 ## Install
 
 Requires Chrome 120+.
 
-1. Download `skill-drop-1.0.0.zip` from [Releases](RELEASE_LINK).
+1. Download `skill-drop-1.0.0.zip` from [Releases](https://github.com/reuke1111/skill-drop/releases/tag/v1.0.0).
 2. Unzip it.
 3. Open `chrome://extensions` in Chrome.
 4. Turn on **Developer mode**.

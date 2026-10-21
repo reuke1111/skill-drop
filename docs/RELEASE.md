@@ -10,7 +10,7 @@ No Chrome Web Store submission or approval is claimed. Before submission, record
 
 ### Claims requiring confirmation
 
-- `VIDEO_LINK` and `RELEASE_LINK` are intentional README placeholders. A ZIP file in the repository is not evidence of a published GitHub Release or demo video.
+- `VIDEO_LINK` remains an intentional demo-video placeholder. The README download links point to the [v1.0.0 release](https://github.com/reuke1111/skill-drop/releases/tag/v1.0.0) and its `skill-drop-1.0.0.zip` asset.
 - Uploads from a third-party repository remain `TODO: confirm`.
 
 ### License
