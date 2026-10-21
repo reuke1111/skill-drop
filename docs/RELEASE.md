@@ -4,16 +4,18 @@ Unofficial. Not affiliated with Anthropic.
 
 ## Verification scope
 
-After release preparation, the user reported “tested in Chrome” on October 21, 2026. Browser testing was user-reported; individual cases were not recorded. An exact tested ZIP hash was not supplied. The user also confirmed successful one- and two-skill uploads from anthropics/skills on an earlier build. Exact skill names, upload commit and scan details were not supplied. Successful uploads for other repositories, duplicate replacement behavior, scan acceptance and installation persistence are not inferred. See [user-provided evidence](../artifacts/USER-CONFIRMED-UPLOADS.md). Automated tests and packaging checks are local unless explicitly identified as real GitHub snapshots in their reports.
+After release preparation, the user reported “tested in Chrome” on October 21, 2026. Browser testing was user-reported; individual cases were not recorded in the initial Chrome-test confirmation. An exact tested ZIP hash was not supplied. The user also confirmed successful one- and two-skill uploads from anthropics/skills on an earlier build. Exact skill names, upload commit and scan details were not supplied. A later user confirmation records that Claude rejected a duplicate skill name; the repository, skill names, ZIP hashes and rejection stage for that test were not recorded. Successful uploads for other repositories, duplicate replacement behavior, scan acceptance and installation persistence are not inferred. See [user-provided evidence](../artifacts/USER-CONFIRMED-UPLOADS.md). Automated tests and packaging checks are local unless explicitly identified as real GitHub snapshots in their reports.
 
 No Chrome Web Store submission or approval is claimed. Before submission, record any remaining flow-specific Chrome outcomes, review the prepared screenshots and promotional image, provide developer/support contact details, and enter the hosted privacy policy URL. The name's Store availability and artwork rights have not been verified.
 
 ### Claims requiring confirmation
 
-- The project has no `LICENSE` file. MIT licensing is not claimed in the README; third-party library licenses do not license Skill Drop itself.
-- The current docs do not confirm that Claude rejects duplicate names. The earlier verification record leaves duplicate handling unverified, so this claim is omitted from the README.
 - `VIDEO_LINK` and `RELEASE_LINK` are intentional README placeholders. A ZIP file in the repository is not evidence of a published GitHub Release or demo video.
 - Uploads from a third-party repository remain `TODO: confirm`.
+
+### License
+
+Skill Drop is licensed under the MIT License. See the project [LICENSE](../LICENSE). Third-party components retain their existing license notices.
 
 ## Store listing and single-purpose statement
 

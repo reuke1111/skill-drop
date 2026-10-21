@@ -42,6 +42,7 @@ Skill Drop has no developer-operated server, analytics, telemetry or ads. It tal
 ## Tested
 
 - Skills from `anthropics/skills`, one and two at a time, uploaded to Claude.
+- Claude rejected a duplicate skill name.
 - Third-party repository uploads — **TODO: confirm**.
 
 Automated tests use saved GitHub responses, along with mocked inputs. See [release verification details](docs/RELEASE.md#verification-scope).
@@ -52,7 +53,7 @@ Skill Drop depends on Claude's current upload page. If placing files in the page
 
 ## License
 
-**TODO: confirm.** This repository does not contain a project `LICENSE` file.
+MIT. See [LICENSE](LICENSE).
 
 ## Build from source
 
