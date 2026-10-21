@@ -1,0 +1,22 @@
+{
+  "name": "skill-drop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && node build.mjs",
+    "test": "node tests/run.mjs",
+    "release": "npm run build && node scripts/package-release.mjs"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "esbuild": "^0.25.0",
+    "fake-indexeddb": "^6.2.6",
+    "linkedom": "^0.18.13",
+    "typescript": "^5.7.3"
+  }
+}

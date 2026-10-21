@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-10-20T20:44:31.116Z",
+  "skipped": [
+    {
+      "repo": "paperclipai/paperclip",
+      "commit": "b11010b0d4f757aabaf12fa6bcf02620f82470ae",
+      "reason": "Error: Response too large"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "commit": "e53739af996be7904b0be299157dd056c84e256d",
+      "reason": "Error: Response too large"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "commit": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
+      "reason": "Error: Response too large"
+    },
+    {
+      "repo": "code-yeongyu/oh-my-openagent",
+      "commit": "c00a05835a6bb11944976263b4e945972adce538",
+      "reason": "Error: Response too large"
+    }
+  ],
+  "sources": [
+    {
+      "label": "topic:claude-skills page 1",
+      "status": "ok",
+      "items": 100,
+      "totalCount": 12023
+    },
+    {
+      "label": "topic:agent-skills page 1",
+      "status": "ok",
+      "items": 100,
+      "totalCount": 34770
+    },
+    {
+      "label": "code search",
+      "status": "skipped",
+      "reason": "No token; anonymous code search is not assumed to work."
+    },
+    {
+      "label": "ComposioHQ/awesome-claude-skills/README.md",
+      "status": "ok",
+      "candidates": 37
+    }
+  ],
+  "repos": [
+    {
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "detected": 20
+    },
+    {
+      "repo": "sergebulaev/linkedin-skills",
+      "branch": "main",
+      "commit": "6d512c995c95523c74a3603ffaa947db0ba97c4d",
+      "detected": 26
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "branch": "master",
+      "commit": "b11010b0d4f757aabaf12fa6bcf02620f82470ae",
+      "detected": 82
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "branch": "main",
+      "commit": "e53739af996be7904b0be299157dd056c84e256d",
+      "detected": 41
+    },
+    {
+      "repo": "Egonex-AI/Understand-Anything",
+      "branch": "main",
+      "commit": "f2d0164f72fe678805c34245a6df36acededfebd",
+      "detected": 9
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "branch": "main",
+      "commit": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
+      "detected": 5
+    },
+    {
+      "repo": "code-yeongyu/oh-my-openagent",
+      "branch": "dev",
+      "commit": "c00a05835a6bb11944976263b4e945972adce538",
+      "detected": 60
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "branch": "main",
+      "commit": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "detected": 2
+    }
+  ],
+  "limitations": [
+    "topic:claude-skills page 1: 100 results in this page of 12023 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 34770 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "Repository cap 8: 205 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
+  ],
+  "candidateCount": 213,
+  "indexed": 57
+}

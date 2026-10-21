@@ -1,0 +1,1 @@
+{"seeds":["anthropics/skills","sergebulaev/linkedin-skills"],"topics":["claude-skills","agent-skills"],"curatedLists":[{"repo":"ComposioHQ/awesome-claude-skills","path":"README.md"}],"maxRepos":8,"maxSearchPages":1,"maxSkills":1500,"codeSearch":true}

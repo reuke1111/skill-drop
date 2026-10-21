@@ -1,0 +1,134 @@
+{
+  "product": "Skill Drop",
+  "version": "1.0.0",
+  "generatedAt": "2026-10-21T07:22:07.959Z",
+  "file": "skill-drop-1.0.0.zip",
+  "compressedBytes": 114300,
+  "compressedKiB": 111.62,
+  "uncompressedBytes": 371820,
+  "sha256": "0a835be2b138595d0ea79cd4a7463c1d1cc93f1a1c5290be5c4f5184b8f1336c",
+  "contents": [
+    {
+      "path": "THIRD-PARTY-LICENSES.txt",
+      "bytes": 1827,
+      "sha256": "4109f766f6697c20adfe6362fd96801542d5c53997b9d1e16f3d851ad6ee89a7"
+    },
+    {
+      "path": "background.js",
+      "bytes": 425,
+      "sha256": "5de8f776417f52ea5f8049b40d3ff1b198903326c9c7d95d05601817fab7f16e"
+    },
+    {
+      "path": "bootstrap-index.json",
+      "bytes": 51728,
+      "sha256": "9094f906c9cbd877b8e9d94ff94f080a2787c53fae04be510a161b2504bc8103"
+    },
+    {
+      "path": "content.js",
+      "bytes": 2388,
+      "sha256": "a28844dea6a579731755907cc7a21602827ef8a0c72bde4c930e76391f4a975b"
+    },
+    {
+      "path": "icons/icon128.png",
+      "bytes": 19094,
+      "sha256": "fbc51309fc08fd96d23dbd7473631b953059cc82d2a1d5c5f78c0555192045fe"
+    },
+    {
+      "path": "icons/icon16.png",
+      "bytes": 644,
+      "sha256": "b1b8b90c106d1e03c084fe10bd63214c9aeaf91479d98889752dda5a4487d8f7"
+    },
+    {
+      "path": "icons/icon32.png",
+      "bytes": 1823,
+      "sha256": "00a681de5ae2bbb4fd00d1bc545178a8812cc394bed12e3d3a0c20a09f838d92"
+    },
+    {
+      "path": "icons/icon48.png",
+      "bytes": 3605,
+      "sha256": "1cd376541c2bbfdd2ed2217c64dc3a09ce8a71ef09b9d46546e32ebe98bafa40"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1122,
+      "sha256": "d3bb458ca6332c906fb35edf961b86f879c98da5e9af5eb42333e529df97d461"
+    },
+    {
+      "path": "panel.css",
+      "bytes": 2457,
+      "sha256": "bbd713445812be481af7d1502692069cc36becd85047baa1e8834524c2976752"
+    },
+    {
+      "path": "panel.html",
+      "bytes": 2789,
+      "sha256": "9f06f2e90c1da82419703a8136419323582478bcb67622ea37ed8252621ff627"
+    },
+    {
+      "path": "panel.js",
+      "bytes": 277717,
+      "sha256": "4f0c53f72ef1957f9dc71cc3a591506be49a258bb65704d491f29f64d32850fb"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 6201,
+      "sha256": "989fe662d261d960e36df35ff1b5a9e11e15fb280156b6e12bf8b884761664a5"
+    }
+  ],
+  "permissions": [
+    "sidePanel",
+    "downloads",
+    "storage"
+  ],
+  "hostPermissions": [
+    "https://claude.ai/*",
+    "https://api.github.com/*",
+    "https://raw.githubusercontent.com/*",
+    "https://codeload.github.com/*"
+  ],
+  "iconSizes": [
+    {
+      "path": "icons/icon16.png",
+      "width": 16,
+      "height": 16,
+      "bytes": 644
+    },
+    {
+      "path": "icons/icon32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 1823
+    },
+    {
+      "path": "icons/icon48.png",
+      "width": 48,
+      "height": 48,
+      "bytes": 3605
+    },
+    {
+      "path": "icons/icon128.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 19094
+    }
+  ],
+  "bundledSkills": 57,
+  "checks": [
+    "Exact 13-file runtime allowlist; no tests, fixtures, secrets/settings files or source maps",
+    "MV3, product name, Chrome floor, description length and declared entry points",
+    "Only 3 API permissions and 4 required GitHub/Claude hosts",
+    "Packaged-script CSP and no external connection/sandbox/resource grants",
+    "Four PNG headers match declared dimensions",
+    "Footer and policy disclaimer; local policy link; script-free policy",
+    "No console/debugger, string execution, prototype card/drop/fixture controls in runtime bundles",
+    "Versioned, nonempty bundled directory under 2 MiB",
+    "Reopened ZIP: every root path and file byte matches dist/"
+  ],
+  "verificationScope": "Agent checks were local static/build/ZIP checks only. Automated regression results are in artifacts/latest-test-run.log. The user subsequently reported Chrome testing; the agent did not observe Chrome or Claude, perform an upload, or submit to the Store.",
+  "userEvidence": "On October 21, 2026 (Asia/Calcutta), after v1.0.0 release preparation, the user reported \"tested in Chrome\". Individual cases, outcomes and an exact tested ZIP hash were not supplied. The user previously confirmed one- and two-skill uploads from anthropics/skills on an earlier build; exact upload commit and skill names were not provided. See artifacts/USER-CONFIRMED-UPLOADS.md.",
+  "pending": [
+    "Record flow-specific Chrome outcomes not detailed in the general test confirmation, including fallback/download completion and four dialog tab cases",
+    "Review prepared 1280x800 screenshot crops and 440x280 promotional tile in store-assets/",
+    "Public privacy URL and working developer/support contact",
+    "Developer dashboard disclosures, submission and review"
+  ]
+}

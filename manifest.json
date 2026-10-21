@@ -1,0 +1,15 @@
+{
+  "manifest_version":3,
+  "name":"Skill Drop",
+  "version":"1.0.0",
+  "minimum_chrome_version":"120",
+  "description":"Find GitHub skills, review their source, and prepare ZIPs for Claude's upload dialog. Unofficial; not affiliated with Anthropic.",
+  "permissions":["sidePanel","downloads","storage"],
+  "host_permissions":["https://claude.ai/*","https://api.github.com/*","https://raw.githubusercontent.com/*","https://codeload.github.com/*"],
+  "icons":{"16":"icons/icon16.png","32":"icons/icon32.png","48":"icons/icon48.png","128":"icons/icon128.png"},
+  "action":{"default_title":"Skill Drop","default_icon":{"16":"icons/icon16.png","32":"icons/icon32.png","48":"icons/icon48.png","128":"icons/icon128.png"}},
+  "content_security_policy":{"extension_pages":"script-src 'self'; object-src 'none'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com https://codeload.github.com; base-uri 'none'; frame-src 'none'"},
+  "side_panel":{"default_path":"panel.html"},
+  "background":{"service_worker":"background.js"},
+  "content_scripts":[{"matches":["https://claude.ai/*"],"js":["content.js"]}]
+}

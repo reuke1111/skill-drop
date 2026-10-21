@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Skill Drop — Privacy policy</title>
+  <style>
+    :root{color-scheme:light dark}body{font:17px/1.7 system-ui,sans-serif;max-width:760px;margin:48px auto;padding:0 24px}h1,h2{line-height:1.25}h2{margin-top:2em}a{color:inherit}.muted{opacity:.75}li{margin:.5em 0}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Skill Drop privacy policy</h1>
+  <p class="muted">Effective date: October 21, 2026</p>
+  <p>Skill Drop helps you find GitHub skills, review their original files, and prepare ZIP files for Claude’s Skills upload dialog. Unofficial. Not affiliated with Anthropic.</p>
+  <h2>Data processed on your device</h2>
+  <p>Search filtering, reading skill metadata, checking file hashes, detecting duplicate names, and building ZIP files happen in your browser. Skill Drop does not run scripts, programs, or instructions downloaded from repositories.</p>
+  <ul>
+    <li><strong>Settings:</strong> your optional index file URL and optional GitHub token are stored in <code>chrome.storage.local</code>, not Chrome Sync. These settings stay until you change them or uninstall the extension. Chrome’s local storage is not a password vault; the token is not encrypted separately by this extension.</li>
+    <li><strong>Directory cache:</strong> the last valid index is stored locally with a 24-hour freshness period. An older valid copy may be retained and used offline until replaced or the extension is uninstalled.</li>
+    <li><strong>Prepared ZIPs and previews:</strong> a local IndexedDB cache is capped at 75 MiB and prunes entries older than 24 hours when it is used. Successful file-input delivery removes the corresponding cached ZIPs. Chrome may apply its own storage quota or evict cache entries.</li>
+    <li><strong>Prepared-name history:</strong> up to 300 skill identifiers and names are retained locally to warn about previously prepared names. This is not a record of confirmed uploads or Claude’s installed skills.</li>
+    <li><strong>Search and selections:</strong> search text, loaded repositories, selections, and some downloaded repository responses are held in panel memory while it is open. Text filtering is local. Loading a GitHub link, fetching a source preview, or building a ZIP can send the corresponding repository URL and file paths to GitHub.</li>
+  </ul>
+  <h2>Network requests and the optional token</h2>
+  <p>Skill Drop has no analytics, advertising, telemetry, crash reporting, tracking identifiers, or developer-operated backend. It does contact the following third-party services directly to provide its features:</p>
+  <ul>
+    <li><code>api.github.com</code> for repository metadata, branches, commits, and file trees. If you supply a GitHub token, it is sent only to this exact host in an HTTPS Authorization header. It is never sent to Claude, raw file hosts, archive hosts, or a Skill Drop server. Public repositories work without a token within GitHub’s public limits. No token is needed to search the bundled directory.</li>
+    <li><code>raw.githubusercontent.com</code> for the optional directory index and original SKILL.md files.</li>
+    <li><code>codeload.github.com</code> for repository ZIP archives.</li>
+    <li><code>claude.ai</code> in your browser when you open the Skills dialog or choose Add. Add places your chosen ZIPs in Claude’s file field and dispatches its normal input/change events. Claude’s page can then read or process those selected files. You decide whether to click Upload; the extension does not click it.</li>
+  </ul>
+  <p>GitHub requests omit browser credentials, reject redirects, and use HTTPS. GitHub and Anthropic receive ordinary network information such as your IP address when contacted, and handle data under their own policies: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub privacy statement</a> and <a href="https://www.anthropic.com/legal/privacy" rel="noreferrer">Anthropic privacy policy</a>. Opening a GitHub source link uses your normal browser session. Hosting this policy on GitHub Pages also involves a normal request to GitHub.</p>
+  <h2>Access to Claude and browser tabs</h2>
+  <p>The content script runs only on claude.ai. It checks the Skills upload route and compatible file input in response to messages from this extension. It can fill that input with files you selected. Skill Drop does not read or save your chats, prompts, responses, account details, passwords, cookies, or Claude’s installed-skill list. It uses Claude tab URLs in the current window to find or open the upload dialog; it does not keep browsing history or send tab URLs to the developer.</p>
+  <h2>Downloads and your controls</h2>
+  <p>If automatic field filling fails, or you choose Save prepared ZIPs, Chrome downloads the prepared files into a ClaudeSkills subfolder of your configured download folder. Downloaded files remain until you delete them; uninstalling the extension does not delete them.</p>
+  <p>Remove the optional token by clearing its field in Advanced settings and choosing Save settings. Use Clear prepared-name history to remove the local name history. Uninstalling Skill Drop removes its extension storage and cache. Clear selected tokens at GitHub too if you want to revoke them. You can use the extension without supplying a token.</p>
+  <h2>Data use and sharing</h2>
+  <p>The developer does not receive, sell, monetize, or share your data. Locally handled data and direct service requests are used only to provide the skill discovery, preview, packaging, and upload-preparation features described here. They are not used for advertising, credit decisions, or unrelated purposes.</p>
+  <h2>Questions and policy updates</h2>
+  <p>For privacy questions, use the developer contact or Support link on Skill Drop’s Chrome Web Store listing. Changes to this policy will appear on this page with an updated effective date. The developer must keep the listing’s contact details and privacy policy URL current.</p>
+</main>
+</body>
+</html>

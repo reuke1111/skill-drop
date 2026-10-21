@@ -1,0 +1,1 @@
+{"name":"claude-skill-drop-index","private":true,"type":"module","scripts":{"build":"node src/build.mjs","verify":"node src/verify.mjs"},"engines":{"node":">=22"}}

@@ -1,0 +1,29 @@
+{
+  "preparedDate": "2026-10-21",
+  "files": [
+    {
+      "file": "screenshot-discovery-1280x800.png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 1327382,
+      "sha256": "1ab626619d123ff0d650e55901b661cfb5b0d1d6c06392401b85d844b70aeb2a",
+      "provenance": "Actual user-supplied Chrome screenshot, cropped and proportionally resized"
+    },
+    {
+      "file": "screenshot-add-controls-1280x800.png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 1476327,
+      "sha256": "ea1b12889a512fa1a9daa2acbe3a32b441a6d7859bb70be2673f24f0db127be5",
+      "provenance": "Actual user-supplied Chrome screenshot, cropped and proportionally resized"
+    },
+    {
+      "file": "promo-440x280.png",
+      "width": 440,
+      "height": 280,
+      "bytes": 140815,
+      "sha256": "da7e76b5770fd735866d5e2b2a664c8710b40f8a2c0efaf59bb51caba81dd371",
+      "provenance": "Generated promotional artwork using supplied icon"
+    }
+  ]
+}
