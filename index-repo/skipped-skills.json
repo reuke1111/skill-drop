@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T20:44:31.116Z",
+  "generatedAt": "2026-10-22T08:45:52.041Z",
   "skipped": [
     {
       "repo": "paperclipai/paperclip",
-      "commit": "b11010b0d4f757aabaf12fa6bcf02620f82470ae",
+      "commit": "043f2514e67c50320433a0013fb228a75a51325c",
       "reason": "Error: Response too large"
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "e53739af996be7904b0be299157dd056c84e256d",
+      "commit": "bbb337902271db56849b7645fee0f3b77b9aabf6",
       "reason": "Error: Response too large"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "c00a05835a6bb11944976263b4e945972adce538",
+      "commit": "b2cbe05c047f3fd4e57ec0b593c6e9531dd53a9c",
       "reason": "Error: Response too large"
     }
   ],
@@ -27,18 +27,18 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 12023
+      "totalCount": 12091
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 34770
+      "totalCount": 35090
     },
     {
-      "label": "code search",
-      "status": "skipped",
-      "reason": "No token; anonymous code search is not assumed to work."
+      "label": "optional authenticated code search",
+      "status": "failed",
+      "error": "Error: GitHub rate limit reached. Retry after 254 seconds. Cached responses remain usable."
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -62,19 +62,19 @@
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "b11010b0d4f757aabaf12fa6bcf02620f82470ae",
+      "commit": "043f2514e67c50320433a0013fb228a75a51325c",
       "detected": 82
     },
     {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "e53739af996be7904b0be299157dd056c84e256d",
+      "commit": "bbb337902271db56849b7645fee0f3b77b9aabf6",
       "detected": 41
     },
     {
       "repo": "Egonex-AI/Understand-Anything",
       "branch": "main",
-      "commit": "f2d0164f72fe678805c34245a6df36acededfebd",
+      "commit": "b8c807c632743ab695ec43cb654a0f1efe216bc8",
       "detected": 9
     },
     {
@@ -86,7 +86,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "c00a05835a6bb11944976263b4e945972adce538",
+      "commit": "b2cbe05c047f3fd4e57ec0b593c6e9531dd53a9c",
       "detected": 60
     },
     {
@@ -97,10 +97,10 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 12023 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 34770 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "Repository cap 8: 205 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
+    "topic:claude-skills page 1: 100 results in this page of 12091 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 35090 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "Repository cap 8: 204 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
-  "candidateCount": 213,
+  "candidateCount": 212,
   "indexed": 57
 }
