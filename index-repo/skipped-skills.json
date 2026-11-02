@@ -1,14 +1,33 @@
 {
-  "generatedAt": "2026-11-01T10:39:40.820Z",
+  "generatedAt": "2026-11-02T11:27:10.261Z",
   "skipped": [
     {
-      "repo": "paperclipai/paperclip",
-      "commit": "1d348bbef04bfd229459a707a98e67690096e444",
-      "reason": "Error: Response too large"
+      "repo": "thedotmack/claude-mem",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
+      "path": "openclaw/SKILL.md",
+      "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "b80b29bc49d08a71312f44b8feacb2e7585edff4",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
+      "path": "openclaw/skills/do/SKILL.md",
+      "reason": "Error: Missing or invalid YAML frontmatter."
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
+      "path": "openclaw/skills/make-plan/SKILL.md",
+      "reason": "Error: Missing or invalid YAML frontmatter."
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
+      "path": "plugin/skills/mem-search/SKILL.md",
+      "reason": "Error: Invalid YAML frontmatter."
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "commit": "8ea240218dc1d3a94afea1294b377021045dd9c9",
       "reason": "Error: Response too large"
     },
     {
@@ -18,7 +37,7 @@
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "ebaf17c7fa891322900dcc48ea5b013dcb077e34",
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "reason": "Error: Response too large"
     }
   ],
@@ -27,18 +46,19 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 13680
+      "totalCount": 13849
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 39493
+      "totalCount": 39897
     },
     {
       "label": "optional authenticated code search",
-      "status": "failed",
-      "error": "Error: GitHub rate limit reached. Retry after 41 seconds. Cached responses remain usable."
+      "status": "ok",
+      "items": 100,
+      "totalCount": 5120000
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -60,16 +80,16 @@
       "detected": 26
     },
     {
-      "repo": "paperclipai/paperclip",
-      "branch": "master",
-      "commit": "1d348bbef04bfd229459a707a98e67690096e444",
-      "detected": 83
-    },
-    {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "b80b29bc49d08a71312f44b8feacb2e7585edff4",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
       "detected": 44
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "branch": "master",
+      "commit": "8ea240218dc1d3a94afea1294b377021045dd9c9",
+      "detected": 83
     },
     {
       "repo": "tt-a1i/archify",
@@ -86,7 +106,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "ebaf17c7fa891322900dcc48ea5b013dcb077e34",
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "detected": 60
     },
     {
@@ -97,10 +117,11 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 13680 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 39493 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "Repository cap 8: 204 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
+    "topic:claude-skills page 1: 100 results in this page of 13849 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 39897 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "optional authenticated code search: 100 results in this page of 5120000 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "Repository cap 8: 304 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
-  "candidateCount": 212,
-  "indexed": 57
+  "candidateCount": 312,
+  "indexed": 97
 }
