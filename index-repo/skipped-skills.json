@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-11-08T10:35:48.519Z",
+  "generatedAt": "2026-11-09T11:50:41.448Z",
   "skipped": [
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3ab6e1a215c7bbcf716b9d8d763aa78bacba52a0",
+      "commit": "989a98a2fb7978354497df46c4e17101f54ba9a3",
       "path": "openclaw/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3ab6e1a215c7bbcf716b9d8d763aa78bacba52a0",
+      "commit": "989a98a2fb7978354497df46c4e17101f54ba9a3",
       "path": "openclaw/skills/do/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3ab6e1a215c7bbcf716b9d8d763aa78bacba52a0",
+      "commit": "989a98a2fb7978354497df46c4e17101f54ba9a3",
       "path": "openclaw/skills/make-plan/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3ab6e1a215c7bbcf716b9d8d763aa78bacba52a0",
+      "commit": "989a98a2fb7978354497df46c4e17101f54ba9a3",
       "path": "plugin/skills/mem-search/SKILL.md",
       "reason": "Error: Invalid YAML frontmatter."
     },
     {
       "repo": "paperclipai/paperclip",
-      "commit": "2175b8db933b5ce85b6531d44d5fbb7319e9ed46",
+      "commit": "0d80b74c21b9306bf262614ae0d1b08434bbf123",
       "reason": "Error: Response too large"
     },
     {
       "repo": "tt-a1i/archify",
-      "commit": "a4065941f12be7967436261d9934784e381d423c",
+      "commit": "11b0d6031853bdae89eed57e7979aabbf0034097",
       "reason": "Error: Response too large"
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "8af3fae18874e823508d90e0b729d6b2848458ca",
+      "commit": "2faeda01eaee3bba9c65ac20ab78151371181dfb",
       "reason": "Error: Response too large"
     }
   ],
@@ -46,13 +46,13 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 14770
+      "totalCount": 14908
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 40205
+      "totalCount": 40583
     },
     {
       "label": "optional authenticated code search",
@@ -81,19 +81,19 @@
     {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "3ab6e1a215c7bbcf716b9d8d763aa78bacba52a0",
+      "commit": "989a98a2fb7978354497df46c4e17101f54ba9a3",
       "detected": 45
     },
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "2175b8db933b5ce85b6531d44d5fbb7319e9ed46",
+      "commit": "0d80b74c21b9306bf262614ae0d1b08434bbf123",
       "detected": 83
     },
     {
       "repo": "tt-a1i/archify",
       "branch": "main",
-      "commit": "a4065941f12be7967436261d9934784e381d423c",
+      "commit": "11b0d6031853bdae89eed57e7979aabbf0034097",
       "detected": 5
     },
     {
@@ -105,7 +105,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "8af3fae18874e823508d90e0b729d6b2848458ca",
+      "commit": "2faeda01eaee3bba9c65ac20ab78151371181dfb",
       "detected": 61
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 14770 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 40205 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:claude-skills page 1: 100 results in this page of 14908 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 40583 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
     "Repository cap 8: 200 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
   "candidateCount": 208,
