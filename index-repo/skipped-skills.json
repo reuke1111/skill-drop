@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:15:25.824Z",
+  "generatedAt": "2026-11-14T10:41:07.547Z",
   "skipped": [
     {
       "repo": "thedotmack/claude-mem",
@@ -27,17 +27,17 @@
     },
     {
       "repo": "paperclipai/paperclip",
-      "commit": "f0679ee0c7d0eff081b52afe53bccbc57faa5c2e",
+      "commit": "aaec67b89161e42571bd12f7c3e3b26ac92be3ce",
       "reason": "Error: Response too large"
     },
     {
       "repo": "tt-a1i/archify",
-      "commit": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
+      "commit": "e37848822238e3a61b12739185cdadd49843a620",
       "reason": "Error: Response too large"
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "dbe4960070f6872fcbc4dd1628a95d1fcdd837d0",
+      "commit": "83373dcbb545ae2336e58abb46af028e9ad29a9e",
       "reason": "Error: Response too large"
     }
   ],
@@ -46,18 +46,18 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 15668
+      "totalCount": 15847
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 42313
+      "totalCount": 42659
     },
     {
       "label": "optional authenticated code search",
       "status": "failed",
-      "error": "Error: GitHub rate limit reached. Retry after 135 seconds. Cached responses remain usable."
+      "error": "Error: GitHub rate limit reached. Retry after 65 seconds. Cached responses remain usable."
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -87,13 +87,13 @@
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "f0679ee0c7d0eff081b52afe53bccbc57faa5c2e",
+      "commit": "aaec67b89161e42571bd12f7c3e3b26ac92be3ce",
       "detected": 83
     },
     {
       "repo": "tt-a1i/archify",
       "branch": "main",
-      "commit": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
+      "commit": "e37848822238e3a61b12739185cdadd49843a620",
       "detected": 5
     },
     {
@@ -105,7 +105,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "dbe4960070f6872fcbc4dd1628a95d1fcdd837d0",
+      "commit": "83373dcbb545ae2336e58abb46af028e9ad29a9e",
       "detected": 61
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 15668 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 42313 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:claude-skills page 1: 100 results in this page of 15847 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 42659 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
     "Repository cap 8: 202 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
   "candidateCount": 210,
