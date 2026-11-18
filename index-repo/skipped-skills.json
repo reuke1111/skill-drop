@@ -1,33 +1,27 @@
 {
-  "generatedAt": "2026-11-17T12:06:35.568Z",
+  "generatedAt": "2026-11-18T11:56:58.148Z",
   "skipped": [
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3d1aa47ec6406c88a76bf9289c4a4248282303e6",
+      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
       "path": "openclaw/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3d1aa47ec6406c88a76bf9289c4a4248282303e6",
+      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
       "path": "openclaw/skills/do/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "3d1aa47ec6406c88a76bf9289c4a4248282303e6",
+      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
       "path": "openclaw/skills/make-plan/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
-      "repo": "thedotmack/claude-mem",
-      "commit": "3d1aa47ec6406c88a76bf9289c4a4248282303e6",
-      "path": "plugin/skills/mem-search/SKILL.md",
-      "reason": "Error: Invalid YAML frontmatter."
-    },
-    {
       "repo": "paperclipai/paperclip",
-      "commit": "ca34aca77750a143dfc637c96769d64f9b14cbdb",
+      "commit": "1c556d5340403112b39e9c7cb068483f58d79dfd",
       "reason": "Error: Response too large"
     },
     {
@@ -37,7 +31,7 @@
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "8592d9459d7ad3e27fa6c6ef209db98b3f268cfa",
+      "commit": "544c0a4351351c8876cd9d8a10095454ee265103",
       "reason": "Error: Response too large"
     }
   ],
@@ -46,18 +40,18 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 16334
+      "totalCount": 16512
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 43896
+      "totalCount": 44338
     },
     {
       "label": "optional authenticated code search",
       "status": "failed",
-      "error": "Error: GitHub rate limit reached. Retry after 3 seconds. Cached responses remain usable."
+      "error": "Error: GitHub rate limit reached. Retry after 121 seconds. Cached responses remain usable."
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -81,13 +75,13 @@
     {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "3d1aa47ec6406c88a76bf9289c4a4248282303e6",
+      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
       "detected": 47
     },
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "ca34aca77750a143dfc637c96769d64f9b14cbdb",
+      "commit": "1c556d5340403112b39e9c7cb068483f58d79dfd",
       "detected": 83
     },
     {
@@ -99,13 +93,13 @@
     {
       "repo": "Egonex-AI/Understand-Anything",
       "branch": "main",
-      "commit": "b861852dda79273bd9d2e01c3160d42e2df510d2",
+      "commit": "bb70fdb0489f8839ce55bf99dae0125ea067f712",
       "detected": 9
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "8592d9459d7ad3e27fa6c6ef209db98b3f268cfa",
+      "commit": "544c0a4351351c8876cd9d8a10095454ee265103",
       "detected": 61
     },
     {
@@ -116,10 +110,10 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 16334 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 43896 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:claude-skills page 1: 100 results in this page of 16512 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 44338 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
     "Repository cap 8: 202 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
   "candidateCount": 210,
-  "indexed": 100
+  "indexed": 101
 }
