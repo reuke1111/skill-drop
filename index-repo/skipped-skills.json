@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-11-18T11:56:58.148Z",
+  "generatedAt": "2026-11-19T11:54:28.445Z",
   "skipped": [
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
+      "commit": "7214c5b5a44e7040fdd4def46adee543493ad6c3",
       "path": "openclaw/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
+      "commit": "7214c5b5a44e7040fdd4def46adee543493ad6c3",
       "path": "openclaw/skills/do/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
+      "commit": "7214c5b5a44e7040fdd4def46adee543493ad6c3",
       "path": "openclaw/skills/make-plan/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "paperclipai/paperclip",
-      "commit": "1c556d5340403112b39e9c7cb068483f58d79dfd",
+      "commit": "1355f93546b44017bdf71212c437ae7a57f8b5e7",
       "reason": "Error: Response too large"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "544c0a4351351c8876cd9d8a10095454ee265103",
+      "commit": "d84a3ef562ba97fa37ee2d112ac0eed5b9960d67",
       "reason": "Error: Response too large"
     }
   ],
@@ -40,18 +40,18 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 16512
+      "totalCount": 16674
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 44338
+      "totalCount": 44787
     },
     {
       "label": "optional authenticated code search",
       "status": "failed",
-      "error": "Error: GitHub rate limit reached. Retry after 121 seconds. Cached responses remain usable."
+      "error": "Error: GitHub rate limit reached. Retry after 734 seconds. Cached responses remain usable."
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -69,19 +69,19 @@
     {
       "repo": "sergebulaev/linkedin-skills",
       "branch": "main",
-      "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41",
+      "commit": "32083c0733e8850d3517bfe691b1e9870d37ba51",
       "detected": 26
     },
     {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "c1dc252bda98b1310ba3fa4b195efe49070d554b",
+      "commit": "7214c5b5a44e7040fdd4def46adee543493ad6c3",
       "detected": 47
     },
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "1c556d5340403112b39e9c7cb068483f58d79dfd",
+      "commit": "1355f93546b44017bdf71212c437ae7a57f8b5e7",
       "detected": 83
     },
     {
@@ -99,7 +99,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "544c0a4351351c8876cd9d8a10095454ee265103",
+      "commit": "d84a3ef562ba97fa37ee2d112ac0eed5b9960d67",
       "detected": 61
     },
     {
@@ -110,8 +110,8 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 16512 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 44338 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:claude-skills page 1: 100 results in this page of 16674 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 44787 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
     "Repository cap 8: 202 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
   "candidateCount": 210,
