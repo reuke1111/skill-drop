@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-20T11:55:40.059Z",
+  "generatedAt": "2026-11-21T11:26:28.198Z",
   "skipped": [
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
+      "commit": "f1bb834527637231e23575e2a70c57375efdac04",
       "path": "openclaw/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
+      "commit": "f1bb834527637231e23575e2a70c57375efdac04",
       "path": "openclaw/skills/do/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "thedotmack/claude-mem",
-      "commit": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
+      "commit": "f1bb834527637231e23575e2a70c57375efdac04",
       "path": "openclaw/skills/make-plan/SKILL.md",
       "reason": "Error: Missing or invalid YAML frontmatter."
     },
     {
       "repo": "paperclipai/paperclip",
-      "commit": "62bc0519d957fd8250a430fd133e8ecf421fe23b",
+      "commit": "683d7ae120c0225715eb61ae492acdb65dbab58d",
       "reason": "Error: Response too large"
     },
     {
       "repo": "tt-a1i/archify",
-      "commit": "44781293f38728baf04dbad33ce1a0cef8c39cca",
+      "commit": "8509a3d63e763b4d454ea9aafa1f939545fcb1ea",
       "reason": "Error: Response too large"
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "commit": "03423f19439a102aef734677f0a12c7ca9703f9b",
+      "commit": "0eaecf33d792730a5a4cb334c66d1a8a570d2eb7",
       "reason": "Error: Response too large"
     }
   ],
@@ -40,18 +40,18 @@
       "label": "topic:claude-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 16821
+      "totalCount": 16984
     },
     {
       "label": "topic:agent-skills page 1",
       "status": "ok",
       "items": 100,
-      "totalCount": 45174
+      "totalCount": 45556
     },
     {
       "label": "optional authenticated code search",
       "status": "failed",
-      "error": "Error: GitHub rate limit reached. Retry after 733 seconds. Cached responses remain usable."
+      "error": "Error: GitHub rate limit reached. Retry after 12 seconds. Cached responses remain usable."
     },
     {
       "label": "ComposioHQ/awesome-claude-skills/README.md",
@@ -75,19 +75,19 @@
     {
       "repo": "thedotmack/claude-mem",
       "branch": "main",
-      "commit": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
+      "commit": "f1bb834527637231e23575e2a70c57375efdac04",
       "detected": 47
     },
     {
       "repo": "paperclipai/paperclip",
       "branch": "master",
-      "commit": "62bc0519d957fd8250a430fd133e8ecf421fe23b",
+      "commit": "683d7ae120c0225715eb61ae492acdb65dbab58d",
       "detected": 83
     },
     {
       "repo": "tt-a1i/archify",
       "branch": "main",
-      "commit": "44781293f38728baf04dbad33ce1a0cef8c39cca",
+      "commit": "8509a3d63e763b4d454ea9aafa1f939545fcb1ea",
       "detected": 5
     },
     {
@@ -99,7 +99,7 @@
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "commit": "03423f19439a102aef734677f0a12c7ca9703f9b",
+      "commit": "0eaecf33d792730a5a4cb334c66d1a8a570d2eb7",
       "detected": 62
     },
     {
@@ -110,8 +110,8 @@
     }
   ],
   "limitations": [
-    "topic:claude-skills page 1: 100 results in this page of 16821 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
-    "topic:agent-skills page 1: 100 results in this page of 45174 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:claude-skills page 1: 100 results in this page of 16984 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
+    "topic:agent-skills page 1: 100 results in this page of 45556 matches; configured pagination is bounded (GitHub also caps each search at 1,000 results).",
     "Repository cap 8: 201 candidates deferred. This is a bounded directory, not exhaustive GitHub coverage."
   ],
   "candidateCount": 209,
